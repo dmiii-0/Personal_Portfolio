@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominic Ramos | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="logo">dmiii<span>-0</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-text">
+                <p class="tagline">// Computer Engineer • Developer • Problem Solver</p>
+                <h1>Hi, I'm <span class="accent">Dominic F. Ramos</span></h1>
+                <p class="hero-subtitle">
+                    Computer Engineering student with hands-on experience in software development,
+                    embedded systems, and IT support. Skilled in building end-to-end technical
+                    solutions—from hardware integration to software applications and system
+                    troubleshooting.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn ghost">Contact Me</a>
+                </div>
+                <div class="hero-links">
+                    <a href="https://github.com/dmiii-0" target="_blank" rel="noopener">GitHub</a>
+                    <span>•</span>
+                    <a href="https://www.linkedin.com/in/dmnc-rms" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <!-- Replace src with your own image -->
+                <div class="photo-frame">
+                    <img src="img/profile-placeholder.png" alt="Profile photo of Dominic Ramos">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <h2>About</h2>
+                <span class="section-tag">// whoami</span>
+            </div>
+            <div class="section-body two-column">
+                <p>
+                    I am a Computer Engineering graduate from the University of Batangas – Lipa Campus,
+                    passionate about solving real-world problems through multidisciplinary engineering.
+                    I enjoy working across the stack, from embedded systems and hardware integration
+                    to full‑stack web applications and data-driven solutions. [file:1]
+                </p>
+                <p>
+                    Recently, I’ve been focusing on building robust systems with clean code,
+                    version control best practices, and automation. I’m comfortable jumping into
+                    fast-paced environments, debugging complex issues, and communicating technical
+                    concepts clearly to both technical and non-technical stakeholders. [file:1]
+                </p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <span class="section-tag">// tech-stack</span>
+            </div>
+            <div class="section-body skills-grid">
+                <div class="card">
+                    <h3>Programming</h3>
+                    <p>Python, C, Java</p>
+                </div>
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Full‑stack website development, RESTful APIs, data‑driven apps</p>
+                </div>
+                <div class="card">
+                    <h3>Embedded Systems</h3>
+                    <p>Arduino, ESP32, Raspberry Pi</p>
+                </div>
+                <div class="card">
+                    <h3>Operating Systems</h3>
+                    <p>Windows, Linux</p>
+                </div>
+                <div class="card">
+                    <h3>Tools</h3>
+                    <p>Git, Linux, PCB Design</p>
+                </div>
+                <div class="card">
+                    <h3>Databases</h3>
+                    <p>SQL, MongoDB</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <span class="section-tag">// builds</span>
+            </div>
+
+            <div class="section-body project-grid">
+                <!-- NYC Vehicle Collision Data Management System 2025 -->
+                <article class="project-card">
+                    <div class="project-image-frame">
+                        <!-- Replace with your screenshot -->
+                        <img src="img/project-nyc-collision.png" alt="NYC Vehicle Collision Data Management System UI">
+                    </div>
+                    <div class="project-content">
+                        <h3>NYC Vehicle Collision Data Management System 2025</h3>
+                        <p class="project-meta">Data Management • SQL • Web App</p>
+                        <p>
+                            Built a data management system that imports collision records from the
+                            NYC Vehicle Collision dataset and allows users to filter by date range,
+                            borough, vehicle type, and severity. The system supports bulk CSV imports,
+                            server‑side filtering, and exportable reports for analysis.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Automated ingestion of large NYC collision datasets with validation.</li>
+                            <li>Dynamic query builder so users can slice data according to their needs.</li>
+                            <li>Designed for easy extension to dashboards and geospatial visualizations.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Mazebot -->
+                <article class="project-card">
+                    <div class="project-image-frame">
+                        <img src="img/project-mazebot.png" alt="Maze-solving robot project image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mazebot | Maze-solving Robot</h3>
+                        <p class="project-meta">Embedded Systems • Robotics</p>
+                        <p>
+                            Fabricated a maze‑solving robot that uses sensor feedback and path‑finding
+                            algorithms to navigate mazes, winning second place in the Annual Mazebot
+                            Competition at UB Lipa. [file:1]
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Color Segmentation -->
+                <article class="project-card">
+                    <div class="project-image-frame">
+                        <img src="img/project-hsv-bills-coins.png" alt="Color segmentation project image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Color Segmentation Using HSV | Bills and Coins Counter</h3>
+                        <p class="project-meta">Computer Vision • Python • OpenCV</p>
+                        <p>
+                            Developed a Python and OpenCV‑based system to detect and classify bills and
+                            coins using HSV color segmentation, improving accuracy under varying lighting
+                            conditions. [file:1]
+                        </p>
+                    </div>
+                </article>
+
+                <!-- YOLOv8 Object Detection -->
+                <article class="project-card">
+                    <div class="project-image-frame">
+                        <img src="img/project-yolov8.png" alt="Object detection project image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Object Detection using YOLOv8</h3>
+                        <p class="project-meta">Deep Learning • Computer Vision</p>
+                        <p>
+                            Implemented a real‑time object detection system using Python, OpenCV, and
+                            YOLOv8, capable of tracking multiple objects in live camera feeds. [file:1]
+                        </p>
+                    </div>
+                </article>
+
+                <!-- ALPR -->
+                <article class="project-card">
+                    <div class="project-image-frame">
+                        <img src="img/project-alpr.png" alt="ALPR project image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Automated License Plate Recognition (ALPR)</h3>
+                        <p class="project-meta">Computer Vision • OCR</p>
+                        <p>
+                            Built a computer vision pipeline for detecting and extracting license plate
+                            data, integrating OCR and image preprocessing techniques to improve
+                            recognition accuracy. [file:1]
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS & CERTIFICATIONS -->
+        <section id="achievements" class="section">
+            <div class="section-header">
+                <h2>Achievements & Certifications</h2>
+                <span class="section-tag">// milestones</span>
+            </div>
+
+            <div class="section-body two-column">
+                <div>
+                    <h3>Key Achievement</h3>
+                    <p>
+                        Fabricated a thesis prototype from scratch: an embedded system that integrates
+                        project enrollment and management, a local repository, and direct code injection
+                        into microcontrollers (Arduino, ESP32, Raspberry Pi) via SSH and Serial
+                        Communication—without external IDEs. [file:1]
+                    </p>
+                </div>
+                <div>
+                    <h3>Certifications</h3>
+                    <ul class="timeline">
+                        <li>
+                            <span class="timeline-title">Advanced Git — DataCamp</span>
+                            <span class="timeline-meta">Jan 2026</span>
+                        </li>
+                        <li>
+                            <span class="timeline-title">Intermediate SQL — DataCamp</span>
+                            <span class="timeline-meta">Apr 2026</span>
+                        </li>
+                        <li>
+                            <span class="timeline-title">CCNA: Introduction to Networks — Cisco</span>
+                            <span class="timeline-meta">Jan 2025</span>
+                        </li>
+                        <li>
+                            <span class="timeline-title">Certified Safety Officer 2 — JGDC‑OSHC</span>
+                            <span class="timeline-meta">Apr 2024</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <span class="section-tag">// work-history</span>
+            </div>
+
+            <div class="section-body">
+                <article class="experience-item">
+                    <h3>Freelance Computer Technician</h3>
+                    <p class="experience-meta">2024 – Present</p>
+                    <ul>
+                        <li>Diagnosed and resolved hardware/software issues across Windows systems, reducing downtime and improving performance. [file:1]</li>
+                        <li>Delivered on-site and remote technical support with clear, client-friendly communication. [file:1]</li>
+                        <li>Built custom gaming and productivity PCs with optimized price‑to‑performance configurations. [file:1]</li>
+                    </ul>
+                </article>
+
+                <article class="experience-item">
+                    <h3>Service Crew — Jollibee Foods Corps</h3>
+                    <p class="experience-meta">2023 – 2024</p>
+                    <ul>
+                        <li>Trained and guided newly hired crew members on standard procedures and customer handling. [file:1]</li>
+                        <li>Delivered high‑volume customer support in fast‑paced environments, strengthening problem‑solving and communication skills. [file:1]</li>
+                    </ul>
+                </article>
+
+                <article class="experience-item">
+                    <h3>Customer Service Representative — Alorica Philippines Incorporated</h3>
+                    <p class="experience-meta">2022</p>
+                    <ul>
+                        <li>Handled customer-related concerns via inbound and outbound calls. [file:1]</li>
+                        <li>Managed complaints and account troubleshooting, ensuring quality customer service. [file:1]</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <div class="section-header">
+                <h2>Education</h2>
+                <span class="section-tag">// acad</span>
+            </div>
+            <div class="section-body">
+                <article class="education-item">
+                    <h3>Bachelor of Science in Computer Engineering</h3>
+                    <p class="experience-meta">University of Batangas – Lipa Campus | 2021 – 2026</p>
+                    <ul>
+                        <li>Studied computer-related courses and technology advancements. [file:1]</li>
+                        <li>Thesis: “Centralized Repository Integrating Project Enrollment and Deployment”. [file:1]</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <span class="section-tag">// say-hello</span>
+            </div>
+            <div class="section-body contact-grid">
+                <div>
+                    <p>
+                        Open to opportunities in software development, embedded systems, and IT support.
+                        Feel free to reach out for collaborations, freelance work, or just a tech chat.
+                    </p>
+                    <ul class="contact-list">
+                        <li><span>Email:</span> <a href="mailto:ramosdominic113@gmail.com">ramosdominic113@gmail.com</a></li>
+                        <li><span>Phone:</span> <a href="tel:+639213579593">+63 921 357 9593</a></li>
+                        <li><span>Location:</span> Lipa City, Batangas, Philippines</li>
+                        <li><span>GitHub:</span> <a href="https://github.com/dmiii-0" target="_blank" rel="noopener">github.com/dmiii-0</a></li>
+                        <li><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/dmnc-rms" target="_blank" rel="noopener">linkedin.com/in/dmnc-rms</a></li>
+                    </ul>
+                </div>
+                <form class="contact-form">
+                    <!-- This is static; hook it up to a backend or email service later -->
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Your name">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="you@example.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="How can we work together?"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary" disabled>Send (frontend only)</button>
+                    <p class="form-note">*This form is static. Connect it to your backend or a service like Formspree to receive messages.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> Dominic F. Ramos </p>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-open');
+            navToggle.classList.toggle('open');
+        });
+
+        // Dynamic year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
