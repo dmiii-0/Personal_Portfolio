@@ -1,2 +1,2 @@
 # Personal_Portfolio
-This is my personal portfolio. Fell free to browse for your references
+This is my personal portfolio. Feel free to browse for your references
